@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:layout_marginTop="50dp"
+    >
+
+    <ImageView
+        android:id="@+id/nav_item_img"
+        android:scaleType="centerCrop"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+      android:src="@drawable/account"
+        android:layout_weight="0.1"
+        android:adjustViewBounds="true"
+        android:layout_margin="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+
+        />
+    <TextView
+        android:id="@+id/nav_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nav_item_account"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:textStyle="bold"
+        android:textColor="#8D8D8D"
+        android:layout_marginLeft="40dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/nav_item_img"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+</LinearLayout>

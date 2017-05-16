@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0e843e</color>
+    <color name="colorPrimaryDark">#0e843e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="ll_background_menu">#5B81E4</color>
+    <color name="rv_background_menu">#ffffff</color>
+    <color name="white">#ffff</color>
+    <!--Profile-->
+    <color name="profile_text_color">#ffffff</color>
+
+    <color name="email_text_color">#000</color>
+
+    <color name="submit_text_color">#ffffff</color>
+
+    <color name="profile_bg">#0099cc</color>
+    <color name="button_text_color">@color/white</color>
+    <color name="button_background">@color/maintheme_color</color>
+    <color name="error_color">#c40000</color>
+    <color name="view_color">#C0C0C0</color>
+
+    <color name="maintheme_color">#21683b</color>
+    <color name="accent">@color/status_bar_color</color>
+    <color name="signintextcolor">@color/maintheme_color</color>
+    <!--Change Password-->
+
+
+    <color name="changep_text_color">#ffffff</color>
+    <color name="confirmp_text_color">#000</color>
+    <color name="btn_text_color">#ffffff</color>
+    <color name="status_bar_color">#a60000</color>
+
+    <color name="relative_layout_border">#01FF70</color>
+    <color name="bv_logout">#4279BD</color>
+    <color name="bv_background_logout">#00AFF0</color>
+                    <!--login screen -->
+    <color name="login_email_text">#ffff</color>
+    <color name="login_fb_text">#ffff</color>
+    <color name="login_already_text">#FF848484</color>
+    <color name="sky_blue">#03a9f4</color>
+    <color name="login_button_background"> #12a34d </color>
+    <color name="login_signin_text">#03a9f4</color>
+
+    <color name="home_background"> #FAFAFA </color>
+    <color name="home_tv_em_fb"> #ffff </color>
+  <!--fb registration-->
+    <color name="fb_reg_tv_heading">#262626</color>
+    <color name="fb_reg_all_edittext">#CECECE</color>
+    <color name="fb_reg_clickable">#03a9f4</color>
+    <color name="fb_reg_signup_background">#0e843e</color>
+
+    <!--CUSIOM DIALOG-->
+    <color name="dialog_heading">#262626</color>
+    <color name="dialog_submit">#7e7d7d</color>
+    <color name="dialog_tv_alerts">#03a9f4</color>
+    <color name="dialog_background">#ffff</color>
+<!--navigation drawer-->
+    <color name="nav_iv_background">#12a34d</color>
+    <color name="nav_items">#8D8D8D</color>
+    <color name="nav_selected_items">#03a9f4</color>
+    <color name="nav_background_color">#ffff</color>
+    <item name="my_color" type="color">#03a9f4</item>
+    <!--tabview-->
+    <color name="tab_text_color">#ffff</color>
+
+</resources>

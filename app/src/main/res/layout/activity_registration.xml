@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_heading_registration"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="26dip"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="350dip"
+        android:layout_height="wrap_content"
+        android:background="#77f2f2f2"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="9dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#E1E1E1"
+                android:gravity="center"
+                android:hint="@string/ed_reg_firstname"
+                android:inputType="textPersonName"
+               />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="2dip"
+                android:layout_weight="1"
+                android:background="#E1E1E1"
+                android:gravity="center"
+
+                android:hint="@string/ed_reg_lastname"
+                android:inputType="textPersonName"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="2dp"
+                android:background="#E1E1E1"
+                android:gravity="center"
+
+                android:hint="@string/ed_reg_email"
+                android:inputType="textEmailAddress"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="2dp"
+                android:background="#E1E1E1"
+                android:gravity="center"
+
+                android:hint="@string/ed_reg_password"
+                android:inputType="textPassword"
+                android:textColor="#0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="2dp"
+                android:background="#E1E1E1"
+                android:gravity="center"
+
+                android:hint="@string/ed_reg_mobilephone"
+                android:inputType="number"
+                android:textColor="#0000" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/green_rounded_corners"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/btn_register_"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="OR"
+          android:textSize="20sp"
+          android:layout_margin="10dp"
+          android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <ImageButton
+                android:id="@+id/fbimage"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:padding="2dip"
+                android:src="@drawable/fb_btn" />
+
+            <TextView
+                android:id="@+id/reg_with_fb"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_weight="5"
+                android:background="#E1E1E1"
+
+                android:text="@string/tv_reg_fb"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

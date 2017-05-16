@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Movers</string>
+    <string name="tv_sign_in">Sign In</string>
+    <string name="ed_email">EMAIL</string>
+    <string name="ed_passsword">PASSWORD</string>
+    <string name="tv_fb_signin">SIGN IN WITH FACEBOOK</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="tv_fb_reg">Register with Facebook</string>
+    <string name="tv_few_more">We just need a few more details to ensure that the best quotes come your way!</string>
+    <string name="tv_my_moving">My Moving Profile</string>
+    <string name="tv_helpus">Help us help you!</string>
+    <string name="tv_setup">Set up your Moving Profile with us.</string>
+    <string name="tv_from">FROM</string>
+    <string name="tv_to">TO</string>
+    <string name="tv_date">DATE</string>
+    <string name="tv_size">SIZE</string>
+    <string name="tv_skip">SKIP</string>
+    <string name="tv_giveme">GIVE ME MY QUOTES!</string>
+    <string name="ed_city">CITY/ZIP</string>
+    <string name="ed_date">21/09/2016</string>
+    <string name="ed_select">PLEASE SELECT</string>
+
+
+    <string name="ed_first_name">PREPOPULATED FIRST NAME</string>
+    <string name="ed_last_name">PREPOPULATED LAST NAME</string>
+    <string name="ed_mobile_phone">MOBILE PHONE#</string>
+
+    <string name="btn_next">NEXT</string>
+    <string name="btn_skip">SKIP</string>
+    <string name="btn_give_me">GIVE ME MY QUOTES!</string>
+
+
+    <string name="tv_forgot_pass">FORGOT PASSWORD?</string>
+    <string name="app_id">292441644472258</string>
+    <string name="title_activity_my_moving_profile">MyMovingProfile</string>
+
+    <!--checking validations-->
+
+    <string name="enter_name_validation">enter your name</string>
+    <string name="enter_email_validation">enter your email id</string>
+    <string name="invalid_email_validation">enter valid email Address</string>
+    <string name="enter_from_validation">enter your location zip number</string>
+    <string name="enter_to_validation">enter destination zip number</string>
+    <string name="validmobile_validation">enter valid number</string>
+
+    <!--confirm registration-->
+
+    <string name="tv_provide">Please provide or confirm the information</string>
+    <string name="tv_below">below so that we know where to send your quotes.</string>
+    <string name="tv_confirmation">Confirmation</string>
+
+    <string name="tv_confirm_firstname">FIRST NAME</string>
+    <string name="tv_confirm_lastname">LAST NAME</string>
+    <string name="tv_confirm_email">EMAIL</string>
+    <string name="tv_confirm_phone">PHONE NO.</string>
+
+    <string name="ed_confirm_email">PREPOPULATED IF GIVEN AT LOGIN</string>
+    <string name="ed_confirm_phone">PREPOUPULATED FROM LOGIN</string>
+    <string name="ed_confirm_firstname">PREPOPULATED FROM LOGIN</string>
+    <string name="ed_confirm_lastname">PREPOPULATED FROM LOGIN</string>
+
+
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_confirm">CONFIRM</string>
+
+    <!--sharing popup-->
+
+    <string name="tv_heading_sharing">SHARING</string>
+    <string name="tv_sharing_dontwant">Don\'t want to handle the checklist or inventory all by yourself?</string>
+    <string name="tv_sharing_you">You don\'t have to!</string>
+    <string name="tv_sharing_simply">Simply share this passcode with others.They will be able to login on their phone directly to this account</string>
+    <string name="tv_sharing_remember">Please remember to refresh the screen if you\'re working at the same time and wish to view someone else\'s changes.</string>
+    <string name="tv_sharing_passcode">PASSCODE</string>
+    <string name="ed_sharing_passcode">your passcode</string>
+    <string name="btn_sharing_ok">OK</string>
+
+
+    <!--Move Profile-->
+    <string name="tv_heading_moveprofile">MOVE PROFILE</string>
+    <string name="tv_move_modify">MODIFY EXISTING</string>
+    <string name="tv_move_view">VIEW EXISTING</string>
+    <string name="tv_move_create">CREATE NEW</string>
+    <string name="title_activity_registration">Registration</string>
+
+    <!--Registration-->
+    <string name="tv_heading_registration">Registration</string>
+    <string name="ed_reg_firstname">FIRST NAME</string>
+    <string name="ed_reg_lastname">LAST NAME</string>
+    <string name="ed_reg_email">EMAIL</string>
+    <string name="ed_reg_password">PASSWORD</string>
+    <string name="ed_reg_mobilephone">MOBILE PHONE#</string>
+    <string name="btn_register_">REGISTER</string>
+    <string name="tv_reg_fb">REGISTER WITH FACEBOOK</string>
+
+                    <!--login screen-->
+
+    <string name="home_tv_signup_email">Sign up with email</string>
+    <string name="home_tv_signup_fb">Sign up with facebook</string>
+    <string name="home_tv_already">Already have an account? Sign in</string>
+    <string name="home_tv_signin">Sign in</string>
+
+                        <!--pop ups-->
+    <string name="allow_locations">Allow <b>Movers.com</b> to access your location?</string>
+    <string name="allow_notifications">Allow <b>Movers.com</b> to send you notifications?</string>
+    <string name="allow">ALLOW</string>
+    <string name="deny">DENY</string>
+
+
+    <!--fb registraton screen-->
+
+    <string name="fb_reg_heading"><b>Personal info</b></string>
+    <string name="fb_reg_firstname">First name</string>
+    <string name="fb_reg_lastname">Last name</string>
+    <string name="fb_reg_phone">Phone</string>
+    <string name="fb_reg_email">Email</string>
+    <string name="fb_reg_password">Password</string>
+    <string name="fb_reg_Moving_from">Moving from…</string>
+    <string name="fb_reg_Moving_to">Moving to…</string>
+    <string name="fb_reg_signup">Sign up</string>
+    <string name="fb_reg_terms">By signing up you agree to our Terms of Service and Privacy Policy</string>
+    <string name="fb_reg_shared_pin">Enter shared PIN</string>
+
+  <!--  <string name="fb_reg_by">By signing up you agree to our</string>
+    <string name="fb_reg_terms">Terms of Service</string>
+    <string name="fb_reg_and">and</string>
+    <string name="fb_reg_privacy">Privacy Policy</string>
+    <string name="fb_reg_shared">Enter shared</string>
+    <string name="fb_reg_pin">PIN</string>
+-->
+
+
+    <!--custom dialog for submission-->
+
+    <string name="dialog_heading"><b>You \'re almost done</b></string>
+    <string name="dialog_submit">Submit a quote to start recieving moving quotes from trusted companies near you.</string>
+    <string name="dialog_agree">By submitting you agree to be contacted by phone or email with quotes from highly rated moving companies.</string>
+    <string name="dialog_tv_submit">SUBMIT</string>
+    <string name="dialog_tv_cancel">NO THANKS</string>
+    <!--  navigation drawer-->
+
+    <string name="nav_item_account">Account</string>
+    <string name="nav_item_notification">Notifications</string>
+    <string name="nav_item_about">About</string>
+    <string name="nav_item_help">Help</string>
+    <string name="nav_item_share">Share</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--tab layout-->
+    <string name="tab_inventory">Inventory</string>
+    <string name="tab_guides">Guides</string>
+    <string name="tab_checklist">Checklist</string>
+    <string name="tab_compare">Compare</string>
+    <string name="tab_quotes">Quotes</string>
+
+
+
+
+    <string-array name="nav_drawer_titles">
+        <item>@string/nav_item_account</item>
+        <item>@string/nav_item_notification</item>
+        <item>@string/nav_item_about</item>
+        <item>@string/nav_item_help</item>
+        <item>@string/nav_item_share</item>
+    </string-array>
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/account</item>
+        <item>@drawable/notifications</item>
+        <item>@drawable/about</item>
+        <item>@drawable/help</item>
+        <item>@drawable/shared</item>
+    </string-array>
+
+</resources>

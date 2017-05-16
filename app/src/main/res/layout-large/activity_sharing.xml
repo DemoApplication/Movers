@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dawnlearner">
+
+    <LinearLayout
+        android:id="@+id/tv_fillup"
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#ffffffff">
+        <TextView
+            android:id="@+id/tv_heading_sharing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_heading_sharing"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:textSize="40sp"
+            android:layout_above="@+id/tv_fillup"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+           />
+    <TextView
+        android:id="@+id/tv_sharing_dontwant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_sharing_dontwant"
+        android:textSize="28sp"
+        android:gravity="left"
+        android:layout_margin="15dp"/>
+        <TextView
+            android:id="@+id/tv_sharing_you"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_sharing_you"
+            android:gravity="center_horizontal"
+            android:textSize="28sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_simply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_sharing_simply"
+            android:gravity="left"
+            android:textSize="28sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_please"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_sharing_remember"
+            android:gravity="left"
+            android:textSize="28sp"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/tv_sharing_passcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_sharing_passcode"
+                android:textColor="#12813c"
+                android:textSize="26sp"
+                 />
+            <EditText
+                android:id="@+id/ed_passcode"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/white_sharing"
+                android:hint="@string/ed_sharing_passcode"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="3.4"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/shared"
+                android:layout_weight="0.2"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_sharing_ok"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/btn_sharing_ok"
+android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="#12813c"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

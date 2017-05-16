@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/dg_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_heading"
+        android:textStyle="bold"
+        android:textColor="@color/dialog_heading"
+        android:textSize="@dimen/dialog_heading"
+        android:gravity="left"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/dg_quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_submit"
+        android:textSize="@dimen/dialog_submit"
+        android:textColor="@color/dialog_submit"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/dg_agree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_agree"
+        android:textSize="@dimen/dialog_agree"
+        android:textColor="@color/dialog_submit"
+        android:layout_margin="10dp"
+
+        />
+</LinearLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="20dp"
+       >
+       <TextView
+           android:id="@+id/dg_tv_submit"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/dialog_tv_submit"
+           android:layout_alignParentRight="true"
+           android:textStyle="bold"
+           android:textSize="@dimen/dialog_submit"
+           android:textColor="@color/dialog_tv_alerts"
+           android:layout_margin="10dp"
+           />
+       <TextView
+           android:id="@+id/dg_tv_cancel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/dialog_tv_cancel"
+           android:layout_toLeftOf="@+id/dg_tv_submit"
+           android:textColor="@color/dialog_tv_alerts"
+           android:textSize="@dimen/dialog_submit"
+           android:textStyle="bold"
+           android:layout_margin="10dp"
+
+           />
+   </RelativeLayout>
+</LinearLayout>
